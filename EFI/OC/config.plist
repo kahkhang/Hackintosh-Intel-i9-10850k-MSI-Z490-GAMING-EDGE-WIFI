@@ -150,6 +150,8 @@
                 <false/>
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
+                <key>ClearTaskSwitchBit</key>
+                <false/>
                 <key>DevirtualiseMmio</key>
                 <true/>
                 <key>DisableSingleUser</key>
@@ -161,6 +163,8 @@
                 <key>EnableSafeModeSlide</key>
                 <true/>
                 <key>EnableWriteUnprotector</key>
+                <false/>
+                <key>FixupAppleEfiImages</key>
                 <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
@@ -922,7 +926,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Auto</string>
+                <string>Acidanthera\GoldenGate</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -1329,7 +1333,7 @@
             <key>Output</key>
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
-                <false/>
+                <true/>
                 <key>ConsoleFont</key>
                 <string></string>
                 <key>ConsoleMode</key>
@@ -1468,6 +1472,8 @@
                     <string>RuntimeCode</string>
                 </dict>
             </array>
+            <key>Unload</key>
+            <array/>
         </dict>
     </dict>
 </plist>
